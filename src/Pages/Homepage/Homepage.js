@@ -26,8 +26,8 @@ const Homepage = () => {
                 <p className={`${style['title-category']} px-3`}>Telusuri Kategori</p>
                 <Category />
               </div>
-              <div className='container mt-3'>
-                <div className="row row-cols-2 row-cols-lg-6 px-3">
+              <div className='container mt-3 mr-4'>
+                <div className="row row-cols-2 row-cols-lg-6">
                   <div className="col">
                     <Card />
                   </div>
@@ -52,18 +52,7 @@ const Homepage = () => {
                   <div className="col">
                     <Card />
                   </div>
-                  <div className="col">
-                    <Card />
-                  </div>
-                  <div className="col">
-                    <Card />
-                  </div>
-                  <div className="col">
-                    <Card />
-                  </div>
-                  <div className="col">
-                    <Card />
-                  </div>
+
                 </div>
               </div>
             </div>

@@ -36,11 +36,23 @@
     border-radius: 12px;
     color: black;
     font-size: 10px;
+    text-decoration: none;
 }
 
 .btn_categories:hover{
     background-color: #7126B5;
     color: white;
+}
+
+button:focus,
+button:active,
+label:focus,
+.btn_categories:active,
+.btn_categories.active
+{
+    outline: 0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
 }
 
 @media (max-width: 576px) { 
